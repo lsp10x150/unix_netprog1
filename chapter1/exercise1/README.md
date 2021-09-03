@@ -1,1 +1,2 @@
-Упражнение 1. Проедлайте все шаги, описанные в конце раздела 1.9, чтобы получть информацию о топологии вашей сети.
+# Exercise 1.1
+Go through the steps at the end of Section 1.9 to discover information about your network topology.

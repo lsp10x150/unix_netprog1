@@ -1,0 +1,2 @@
+Answer section of the book:
+"The host on the token ring cannot send packets with more than 1'460 bytes of data because the MSS it received was 1'460. The host on the Ethernet can send packets with up to 4'096 bytes of data, but it will not exceed the MTU of the outgoing interface (the Ethernet) to avoid fragmentation. TCP cannot exceed the MSS announced by the other end, but it can always send less than this amount."
