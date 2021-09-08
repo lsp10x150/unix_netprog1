@@ -1,0 +1,2 @@
+# Exercise 6.5 
+Let's see what happens when the second argument to shutdown is SHUT\_RD. Start with the TCP client in Figure 5.4 and make the following changes: Change the port number from SERV\_PORT to 19, the chargen server (Figure 2.18); then, replace the call to str_cli with a call to the pause function. Run this program specifying the IP address of a local host that runs the chargen server. Watch the packets with a tool such as tcpdump. What happens?

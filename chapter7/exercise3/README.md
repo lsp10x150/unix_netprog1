@@ -1,0 +1,2 @@
+# Exercise 7.3
+Start with our TCP server from Figures 5.2 and 5.3 and our TCP client from Figures 5.4 and 5.5 Modify the client main function to set the SO\_LINGER socket option before calling exit, setting l\_onoff to 1 and l\_linger to 0. Start the server and then start the client. Type in a line or two at the client to verify the operation, and then terminate the client by entering your EOF character. What happens? After you terminate the client, run netstat on the client host and see if the socket goes through the TIME\_WAIT state.

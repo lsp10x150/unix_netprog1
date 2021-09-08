@@ -1,0 +1,1 @@
+Nothing changes because the server process that is started on the server host creates a listening socket and is waiting for new connection requests to arrive. What we send in Step 3 is a data segment destined for an ESTABLISHED TCP connection. Our server with the listening socket never sees this data segment, and the server TCP still responds to it with an RST.

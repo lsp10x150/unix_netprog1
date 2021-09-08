@@ -1,0 +1,1 @@
+There is not much difference: telnet converts all input into NVC ASCII which terminates each string with combination of two symbols CR LF (carriage return [\r], line feed [\n]) -- actually that is the only difference. Server sends back every character including CR and LF.

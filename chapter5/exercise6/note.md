@@ -1,0 +1,1 @@
+The thing to understand is that when a client tries to write data to a socket that has already received RST the write operation will be interrupted by SIGPIPE signal, which in turn leads to termination. If the SIGPIPE signal has user-defined hadler which returns then the write operation will return EPIPE.

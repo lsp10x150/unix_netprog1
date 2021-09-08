@@ -1,0 +1,1 @@
+IP's routing function looks at the destination IP address (the server's IP addres) and searches the routing table to determine the outgoing interface and next hop (Chapter 9 of TCPv1). The primary IP adress of the outgoing interface is used as the source IP address, assuming the socket has not already bound a local IP address.
