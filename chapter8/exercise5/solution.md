@@ -1,0 +1,1 @@
+It probable has a socket receive buffer size, but data is never accepted for a lisening TCP socket. Most implementations do not preallocate memory for socket send buffers or socket recevie buffers. The socket buffer sizes specified with SO\_SNDBUF and SO\_RCVBUF socket options are just upper limits for that socket.

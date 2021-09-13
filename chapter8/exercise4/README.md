@@ -1,0 +1,2 @@
+# Exercise 8.4
+Run the ping program in one window, specifying the -i 60 option (send one packet every 60 seconds; some systems use -I instead of -i), the -v option (print all received ICMP errors), and the loopback address (normally 127.0.0.1). We will use this program to see the ICMP port unreachable returned by the server host. Next, run our client fro mthe previous exercise in another window, specifying the IP address of some host that is not running the server. What happens? 

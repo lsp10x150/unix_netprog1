@@ -1,0 +1,1 @@
+Section 4.2.3.2 states: "The delay MUST be less than 0.5 seconds, and in a stream of full-sized segments, there SHOULD be an ACK for at least eveery second segment." Berkley-derived implementations delay an ACK by at most 200 ms.

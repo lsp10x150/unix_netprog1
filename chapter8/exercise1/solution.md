@@ -1,0 +1,1 @@
+Yes, read returns 4'096 bytes of data, but the recvfrom returns 2'048 (the first of the two datagrams). A recvfrom on a datagram socket never returns more than one datagram, regardless of how much the application asks for.

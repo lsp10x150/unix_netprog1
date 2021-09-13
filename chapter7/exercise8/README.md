@@ -1,0 +1,2 @@
+# Exercise 7.8
+Continuing the example at the end of our discussion of the TCP\_NODELAY socket option, assume that a client performs two  writes: the first of 4 bytes and the second of 396 bytes. Also assume that the server's delayed ACK time is 100ms, the RTT between the client and server is 100 ms, and the server's processing time for the client's request is 50 ms. Draw a timeline that shows the interaction of the Nagle algorigthm with delayed ACKs.

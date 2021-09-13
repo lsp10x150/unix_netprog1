@@ -1,0 +1,1 @@
+If the protocol uses variable-length socket address structures, clilen could be too large. We will see in Chapter 15 that this is acceptable with Unix domain socket address structures, but the correct way to code the function is to use the actual length returned by recvfrom as the length for sendto .

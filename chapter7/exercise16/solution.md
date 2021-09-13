@@ -1,0 +1,1 @@
+The original sockets API did not have a listen function. Instead, the fourth argument to socket contained socket options, and SO\_ACCEPTCONN was used to specify a lisening socket. When listen was added, the flag stayed around, but it is now set only by the kernel.
