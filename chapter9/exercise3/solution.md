@@ -1,0 +1,1 @@
+In the one-to-one style, a connect call must be performed first, and so when the COOKIE is sent to the peer, no data is pending. For the one-to-many style, an application can send data to a peer to set up an association. This means that when the COOKIE is sent, the DATA is available to send to the peer.

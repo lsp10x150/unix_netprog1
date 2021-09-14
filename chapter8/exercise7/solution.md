@@ -1,0 +1,1 @@
+Putting a printf in the client should introduce a delay between each datagram, allowing the server to receive more datagrams. Puttin a printf in the server should cause the server to lose more datagrams.

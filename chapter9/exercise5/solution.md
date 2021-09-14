@@ -1,0 +1,1 @@
+In some cases, not all addresses that are bound may be passed to a peer endpoint. In particular, when addresses that an application has bound contain both private and public IP addresses, only the public addresses may be shared with a peer endpoint. Another example is found in iPv6, where link-local addresses cannot necessarily be shared with a peer.
