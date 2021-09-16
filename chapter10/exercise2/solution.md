@@ -1,0 +1,2 @@
+If the server receives a request and then exits, the client in its current form will hang forever waiting for a message that will never come. A method that can be used by the client to detect this is to enable association events. This will allow the client application to receive a message when the server exits, telling the client that the association is now gone. This would allow the client to then take a recovery action such as contacting a different server.
+An alternative method the client could use is to set up a timer and abort after some time period.

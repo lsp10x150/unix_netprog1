@@ -1,0 +1,1 @@
+The one-to-many style allows implicit setup of associations. To use acnillary data to change the setup of an association, you need to use the sendmsg call to provide the data before the association is set up. Thus, you must use an implicit association setup.

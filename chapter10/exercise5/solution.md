@@ -1,0 +1,1 @@
+If an application sets up an association and then changes the number of streams, the association will not have a different number of streams, it will hae the original number before the change. This is because changing the number of streams only affects new associations, not exisitng ones.

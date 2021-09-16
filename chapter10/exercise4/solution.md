@@ -1,0 +1,2 @@
+The Nagle algorithm (controlled by the SCTP\_NODELAY socket option; see Section 7.10) will cause a problem only if we choose a small data transfer size. 
+So as long as we send a size that forces SCTP to send immediately, no harm will occur. However, choosing a smaller size for out\_sz would skew the results, holding some transmissions awaiting SACKs from the remote endpoint. So if a smaller size is to be used, turning off the Nagle alrogrithm (ie., turning on the SCTP\_NODELAY socket option) would be a good idea.
