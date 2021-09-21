@@ -1,0 +1,2 @@
+# Exercise 11.11 
+getnameinfo can take a long time (up to 80 seconds) to return an error if a hostname cannot be found for an IP address. Write a new function named getnameinfo\_timeo that takes an additional integer argument specifuing the maximum number of seconds to wait for a reply. If the timer expires and the NI\_NAMEREQD flag is not specified, just call inet\_ntop and return an address string.
