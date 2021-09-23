@@ -1,0 +1,1 @@
+If these two lines are removed, select is called. But select will return immediately becausee with the connection established, the socket is writable. This test and goto are to avoid the unnecessary call to select.

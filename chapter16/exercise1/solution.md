@@ -1,0 +1,1 @@
+The descriptor is shared between the parent and child, so it has a reference count of 2. If the parent calls close , this just decrements the reference count from 2 to 1, and since it is still greater than 0, a FIN is not sent. This is another reason for the shutdown function: to force a FIN to be sent even if the descriptor's reference count is greater than 0.

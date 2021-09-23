@@ -1,0 +1,1 @@
+This can happen when the server immediately sends data when its accept returns, and when the client host is busy when the second packet of the three-way handshake arrives to complete the connection at the client end. SMTP servers, for example, immediately write to a new connection before reading from it, to send a greeting message to the client.
