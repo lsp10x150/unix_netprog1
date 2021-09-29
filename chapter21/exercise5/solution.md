@@ -1,0 +1,2 @@
+The value 1'073'741'824 is converted to a floating-point number and divided by 4'294'967'296, yeilding 0.250. This is multiplied by 1'000'000 yielding 250'000, which in microseconds is one-quarter of a second.
+The largest fratcion is 4'294'967'295, which divided by 4'294'967'296 yeilds 0.99999999976716935634. Multiplying this by 1'000'000 and truncating to an integer yields 999'999, the largest value for the number of microseconds.
