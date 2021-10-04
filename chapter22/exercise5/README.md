@@ -1,0 +1,2 @@
+# Exercise 22.5 
+The main function in Section 22.6 is protocol-dependent on IPv4. Recode it to be protocolindependent. Require the user to speicfy one or two command-line arguments, the first being an optional IP address (e.g., 0.0.0.0 or 0::0) and the second being a requred port number. The call udp\_client just to obtain the address family, port number, and length of the socket address sturcture.

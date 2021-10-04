@@ -1,0 +1,1 @@
+Since select does not modify the timeval structure that specifies its time limit, you need to note the time when the first packet is sent (this is already returned in units of milliseconds by rtt\_ts). If select returns with the socket being readable, note the current time, and if recvmsg is called again, calculate the new timeout for select.
